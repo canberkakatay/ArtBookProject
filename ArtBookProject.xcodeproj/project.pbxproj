@@ -14,6 +14,8 @@
 		566DF13725C1DBFB00B2E793 /* ArtBookProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 566DF13525C1DBFB00B2E793 /* ArtBookProject.xcdatamodeld */; };
 		566DF13925C1DBFC00B2E793 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 566DF13825C1DBFC00B2E793 /* Assets.xcassets */; };
 		566DF13C25C1DBFC00B2E793 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 566DF13A25C1DBFC00B2E793 /* LaunchScreen.storyboard */; };
+		566DF14525C1DF5400B2E793 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566DF14425C1DF5400B2E793 /* DetailsVC.swift */; };
+		566DF14925C1E9F000B2E793 /* Başlıksız-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 566DF14825C1E9F000B2E793 /* Başlıksız-1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		566DF13825C1DBFC00B2E793 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		566DF13B25C1DBFC00B2E793 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		566DF13D25C1DBFC00B2E793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		566DF14425C1DF5400B2E793 /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		566DF14825C1E9F000B2E793 /* Başlıksız-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Başlıksız-1.jpg"; path = "../../../Başlıksız-1.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +62,11 @@
 		566DF12B25C1DBFB00B2E793 /* ArtBookProject */ = {
 			isa = PBXGroup;
 			children = (
+				566DF14825C1E9F000B2E793 /* Başlıksız-1.jpg */,
 				566DF12C25C1DBFB00B2E793 /* AppDelegate.swift */,
 				566DF12E25C1DBFB00B2E793 /* SceneDelegate.swift */,
 				566DF13025C1DBFB00B2E793 /* ViewController.swift */,
+				566DF14425C1DF5400B2E793 /* DetailsVC.swift */,
 				566DF13225C1DBFB00B2E793 /* Main.storyboard */,
 				566DF13825C1DBFC00B2E793 /* Assets.xcassets */,
 				566DF13A25C1DBFC00B2E793 /* LaunchScreen.storyboard */,
@@ -127,6 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				566DF14925C1E9F000B2E793 /* Başlıksız-1.jpg in Resources */,
 				566DF13C25C1DBFC00B2E793 /* LaunchScreen.storyboard in Resources */,
 				566DF13925C1DBFC00B2E793 /* Assets.xcassets in Resources */,
 				566DF13425C1DBFB00B2E793 /* Main.storyboard in Resources */,
@@ -144,6 +151,7 @@
 				566DF13125C1DBFB00B2E793 /* ViewController.swift in Sources */,
 				566DF12D25C1DBFB00B2E793 /* AppDelegate.swift in Sources */,
 				566DF12F25C1DBFB00B2E793 /* SceneDelegate.swift in Sources */,
+				566DF14525C1DF5400B2E793 /* DetailsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
